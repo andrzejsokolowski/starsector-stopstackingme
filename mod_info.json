@@ -3,11 +3,12 @@
   "name": "StopStackingMe",
   "author": "Oddisz",
   "utility": "true",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cargo and weapon-picker tiles draw the item's sprite once, instead of piling up a shadowy copy for every unit in the stack. The quantity number, tooltips and everything else stay exactly as they were. Covers the cargo screen, trading, storage, loot and the refit weapon picker. Crew and marine stacks can be flattened too, from the settings.",
   "gameVersion": "0.98a-RC8",
   "jars": ["jars/StopStackingMe.jar"],
   "modPlugin": "stopstackingme.StopStackingMeModPlugin",
+  "modThreadId": "35952",
   "updateCheckURL": "https://raw.githubusercontent.com/andrzejsokolowski/starsector-stopstackingme/main/stopstackingme.version",
   "originalGameVersion": "0.98a-RC8",
   "dependencies": [
