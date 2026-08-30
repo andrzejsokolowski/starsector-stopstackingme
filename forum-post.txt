@@ -1,0 +1,68 @@
+[center][size=28pt][url=https://github.com/andrzejsokolowski/starsector-stopstackingme/releases/latest][b]StopStackingMe[/b][/url][/size]
+[url=https://github.com/andrzejsokolowski/starsector-stopstackingme/releases/latest][img]https://img.shields.io/github/downloads/andrzejsokolowski/starsector-stopstackingme/total?style=for-the-badge&label=download[/img][/url]  [url=https://github.com/andrzejsokolowski/starsector-stopstackingme][img]https://img.shields.io/github/v/release/andrzejsokolowski/starsector-stopstackingme?display_name=tag&sort=semver&style=for-the-badge&label=source[/img][/url]
+[/center]
+[center][b]
+WHAT DOES THIS MOD DO?
+- Draws one sprite per cargo stack, instead of a pile of grey ghost copies behind it.
+
+
+
+Do you have three Heavy Maulers in your hold? Then the game draws three Heavy Maulers, piled up in one little tile, the two at the back tinted grey.
+Six? Six sprites, in a pyramid.
+It's there to tell you how many you have. There is already a number in the corner doing exactly that.
+
+One sprite. Every screen. The number stays.
+
+
+
+Cargo, trade, storage, loot and the refit weapon picker all share the same tile, so they all get fixed at once.
+The code is fully open source. You don't have to credit me. Claude Code built this anyway.
+[color=red]Requires [b]LunaLib[/b] and [b]LazyLib[/b].[/color]
+[/b][/center]
+[spoiler=Screenshots]
+[center][img]https://github.com/andrzejsokolowski/starsector-stopstackingme/blob/main/stack1.png?raw=true[/img]
+[img]https://github.com/andrzejsokolowski/starsector-stopstackingme/blob/main/stack2.png?raw=true[/img][/center]
+[/spoiler]
+[center]
+[table]
+[tr]
+[td][hr][center][size=12pt][b]What It Does[/b][/size][/center][hr]
+[list]
+[li][b]Weapons stop piling up.[/b] One sprite per tile, whether you have one of them or sixty.[/li]
+[li]Works everywhere the game shows a cargo tile: the [b]cargo screen[/b], [b]trade[/b], [b]storage[/b], [b]loot[/b], and the [b]weapon picker in refit[/b]. They are all the same tile underneath.[/li]
+[li][b]Nothing else changes.[/b] Same sprite, same size, same red "you can't take this" background, same quantity number, same tooltip, same drag and drop.[/li]
+[li]Doesn't care whether the weapon is vanilla or modded. It never looks at what the sprite is, only at how many copies get drawn.[/li]
+[/list]
+[hr][center][size=12pt][b]Settings[/b][/size][/center][hr]
+[list]
+[li]In LunaLib's settings menu ([b]Shift+F2[/b] in the campaign), under [b]Icons[/b].[/li]
+[li][b]Weapons - one sprite only[/b]: on by default.[/li]
+[li][b]Crew and marines - one sprite only[/b]: off by default. Crew and marine tiles pile up the same way, one extra portrait per 50 aboard.[/li]
+[li]Both apply on the next frame drawn, so you can flip one and watch the screen you are already looking at change. No reload, no restart.[/li]
+[/list]
+[/td][/tr][/table][/center]
+[spoiler=FAQ]
+[b]Can I add or remove it mid save?[/b]
+Yes, both. Nothing of this mod is ever written into your save. It only changes how a screen is drawn while you are looking at it.
+[b]Do I need to start a new game?[/b]
+No.
+[b]Does it change how much I actually have?[/b]
+No. It only stops the extra sprites being drawn. The quantity number in the corner is untouched, and so is everything the game does with the stack.
+[b]The sprite sits slightly lower when I have more than one.[/b]
+That is the game's own doing: when a tile holds more than one, it shifts the front sprite down a few pixels to leave room for the pile behind it. The pile is gone, the shift stays. Fixing it as well meant shrinking the red "you can't take this" background on restricted market goods, which was a worse trade.
+[b]What about fighter LPCs, blueprints and AI cores?[/b]
+Those already draw a single sprite in vanilla. There is nothing for the mod to do there.
+[b]Does it work in the simulator or in missions?[/b]
+No. Those run in a different part of the game. Campaign only.
+[b]Performance?[/b]
+Negligible. It does nothing at all unless a cargo screen or the refit screen is actually open.
+[b]What if a future game update breaks it?[/b]
+Then it stops working and leaves your icons stacked, which is where they started. It can't take the game down with it.
+[/spoiler]
+[spoiler=Version log]
+1.0.1
+Linked the mod to this forum thread.
+
+1.0.0
+First release. One sprite per cargo stack, everywhere the game stacks them, with a LunaLib toggle for crew and marines.
+[/spoiler]
