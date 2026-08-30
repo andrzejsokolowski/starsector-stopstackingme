@@ -1,0 +1,5 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+sss_header_icons,Icons Header,Header,Stacked icons,,,,,Icons
+sss_icons_text,Icons Text,Text,"When you hold more than one of something, the game normally draws its sprite once per unit, piled up behind the first one. These toggles make it draw a single sprite instead. The quantity number in the corner is untouched, so you can still see how many you have. Changes apply the next time a screen draws - no restart needed.",,,,,Icons
+sss_flatten_weapons,Weapons - one sprite only,Boolean,true,,"Applies to weapons everywhere they are shown as a stack: the cargo screen, trading, storage, loot, and the weapon picker in refit.",,,Icons
+sss_flatten_personnel,Crew and marines - one sprite only,Boolean,false,,"Crew and marine stacks pile up the same way, one extra portrait for every 50 aboard. Turn this on to flatten those too.",,,Icons
