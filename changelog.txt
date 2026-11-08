@@ -1,0 +1,8 @@
+Version 1.0.2 (2026-09-04)
+- Added the mod icon, which also shows next to the mod in LunaLib's settings menu.
+
+Version 1.0.1 (2026-08-30)
+- Linked the mod to its forum thread.
+
+Version 1.0.0
+- First release: one sprite per cargo stack, everywhere the game stacks them, with a LunaLib toggle for crew and marines.
