@@ -1,4 +1,4 @@
-[center][img width=220]https://github.com/andrzejsokolowski/starsector-stopstackingme/blob/main/StopStackingMeIconBig.png?raw=true[/img]
+[center][img width=128]https://raw.githubusercontent.com/andrzejsokolowski/starsector-stopstackingme/main/icon.png[/img]
 [size=28pt][url=https://github.com/andrzejsokolowski/starsector-stopstackingme/releases/latest][b]StopStackingMe[/b][/url][/size]
 [url=https://github.com/andrzejsokolowski/starsector-stopstackingme/releases/latest][img]https://img.shields.io/github/downloads/andrzejsokolowski/starsector-stopstackingme/total?style=for-the-badge&label=download[/img][/url]  [url=https://github.com/andrzejsokolowski/starsector-stopstackingme][img]https://img.shields.io/github/v/release/andrzejsokolowski/starsector-stopstackingme?display_name=tag&sort=semver&style=for-the-badge&label=source[/img][/url]
 [/center]
@@ -50,6 +50,9 @@ The UIFramework code by Starficz inside it keeps its own licence (LGPL-3.0).
 [/spoiler]
 
 [spoiler=Version log]
+1.0.3
+New gold icon in mod managers (TriOS) and in LunaLib's settings.
+
 1.0.2
 Added the mod icon, which now also shows next to the mod in LunaLib's settings menu.
 

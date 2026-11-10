@@ -1,3 +1,6 @@
+Version 1.0.3 (2026-11-10)
+- New gold icon in mod managers (TriOS) and in LunaLib's settings.
+
 Version 1.0.2 (2026-09-04)
 - Added the mod icon, which also shows next to the mod in LunaLib's settings menu.
 
