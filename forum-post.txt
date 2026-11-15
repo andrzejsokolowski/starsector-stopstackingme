@@ -50,6 +50,9 @@ The UIFramework code by Starficz inside it keeps its own licence (LGPL-3.0).
 [/spoiler]
 
 [spoiler=Version log]
+1.1.0
+Updated for Starsector 0.98.5a.
+
 1.0.3
 New gold icon in mod managers (TriOS) and in LunaLib's settings.
 
