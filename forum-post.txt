@@ -16,6 +16,9 @@ One sprite. Every screen. The number stays. Helps with the visual clutter for me
 
 [color=red]Requires [b]LunaLib[/b] and [b]LazyLib[/b].[/color]
 [/b][/center]
+[spoiler=Screenshots]
+[center][img]https://github.com/andrzejsokolowski/starsector-stopstackingme/blob/main/screenshots/01-one-sprite-per-stack.png?raw=true[/img][/center]
+[/spoiler]
 [center]
 [hr][center][size=12pt][b]Settings[/b][/size][/center][hr]
 [list]
